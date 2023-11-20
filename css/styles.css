@@ -54,9 +54,9 @@ ul {
 }
 
 .container {
-  /* width: 320px; */
+  max-width: 320px;
   padding: 0 16px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   
 }
 .visually-hidden {
@@ -78,7 +78,7 @@ ul {
 
 @media screen and (min-width:480px) {
   .container {
-      width: 320px;
+      max-width: 320px;
       margin-left: auto;
         margin-right: auto;
     }
@@ -266,6 +266,12 @@ ul {
   fill: #f4f4fd;
 }
 
+.studio-burger,
+.address-burger {
+  color:#404BBF;
+}
+
+
 /* HEADER SECTION */
 
 /* HERO SECTION */
@@ -352,6 +358,7 @@ font-family: Roboto;
   font-style: normal;
   line-height: 24px;
   letter-spacing: 0.32px;
+  font-weight: 500px;
 }
 
 .list_benefits {
@@ -383,7 +390,7 @@ flex-direction: column;
   font-size: 36px;
   color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     
 }
 
@@ -426,7 +433,7 @@ flex-direction: column;
   gap: 24px;
   justify-content: center;
   align-items: center;
-  padding-top: 8px;
+  
 }
 
 .svg_a_member {
@@ -484,7 +491,7 @@ flex-direction: column;
     line-height: 40px;
       letter-spacing: 0.72px;
       text-transform: capitalize;
-      margin-bottom: 72px;
+      padding-bottom: 72px;
       
 }
 
@@ -719,7 +726,7 @@ margin: 0 auto;
 .footer-form {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
   justify-content: center;
 }
 
@@ -1024,7 +1031,7 @@ margin-bottom: 16px;
 
 @media screen and (min-width:768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
    
   }
   
@@ -1250,7 +1257,9 @@ width: 264px;
   row-gap: 72px;
 }
 
-
+.list_portfolio_li {
+  width:356px;
+}
 
 
 
@@ -1297,7 +1306,10 @@ width: 264px;
 @media screen and (min-width:1158px) {
 
 
+.container {
+    max-width: 1158px;
 
+  }
 
   .webstudio {
 
@@ -1411,6 +1423,8 @@ width: 264px;
   width: auto;
   padding: 100px 0;
 }
+
+
 
 .footer-container {
   display: flex;
